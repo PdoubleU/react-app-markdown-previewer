@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactFCCtest from 'react-fcctest';
-import { textInput } from './components/textInput.js';
+import TextInput from './components/input_output.js';
 
 function App() {
   return (
     <div className="App">
-      <textInput />
+      <TextInput/>
       <ReactFCCtest/>
     </div>
   );

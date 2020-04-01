@@ -1,18 +1,76 @@
+$darkAccent: #224B4B;
+$lightAccent: #2CDA9D;
+$backgroundBase: #619E9E;
+
 root {
   box-sizing: border-box;
   font-size: calc(.5em + 1vw);
 }
 body {
-  background-color: lightgrey;
+  background-color: lightgreen;
   margin: 0;
   padding: 0;
 }
-.App{
+.container{
   display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+.wrapper{
+  background-color: lightslategray;
+  padding: .1em;
+  width: 50%;
+}
+.in{
+    background-color: red;
+    height: 100vh;
+}
+.out{
+  overflow: scroll;
 }
 .inputBox{
-  margin: auto;
-  width: 40%;
-  min-height: 20%;
+  min-height: 100%;
+  min-width: 100%;
+  margin: 0;
+  padding: 0;
+}
 
+#preview {
+  blockquote {
+    border-left: 3px solid #224B4B;
+    color: #224B4B;
+    padding-left: 5px;
+    margin-left: 25px;
+  }
+
+  code {
+    background: white;
+    padding: 1px 4px 2px 4px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  pre {
+    background: white;
+    padding: 5px 0 5px 5px;
+  }
+
+  h1 {
+    border-bottom: 2px solid $darkAccent;
+  }
+
+  h2 {
+    border-bottom: 1px solid $darkAccent;
+  }
+
+  table {
+    border-collapse: collapse;
+  }
+
+  td,
+  th {
+    border: 2px solid $darkAccent;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 }
