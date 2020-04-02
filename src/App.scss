@@ -1,76 +1,141 @@
-$darkAccent: #224B4B;
-$lightAccent: #2CDA9D;
-$backgroundBase: #619E9E;
+$darkAccent: rgb(99, 99, 99);
+$lightAccent: #d1d1d1;
+$backgroundBase: #424242;
+$mainBackground: #8b8b8b;
 
-root {
+:root{
   box-sizing: border-box;
-  font-size: calc(.5em + 1vw);
+  font-size: calc(.4rem + 1vw);
+}
+*,
+::before,
+::after{
+  box-sizing: inherit;
 }
 body {
-  background-color: lightgreen;
   margin: 0;
   padding: 0;
 }
+
 .container{
+  background-color: $mainBackground;
+  padding: .6em;
   display: flex;
-  flex-direction: row;
-  height: 100vh;
+  max-height: 100vh;
 }
 .wrapper{
-  background-color: lightslategray;
-  padding: .1em;
-  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.toolbar{
+  text-align: center;
+  font-weight: bold;
+  background-color: $lightAccent;
+  color: $darkAccent;
+  text-transform: uppercase;
+  padding: .3em .5em;
+  margin: 0;
 }
 .in{
-    background-color: red;
-    height: 100vh;
+  border: 2px solid black;
+  float: left;
+  width: calc(49% - 1em);
+  margin-right: 1em;
+  margin-left: 1em;
 }
 .out{
-  overflow: scroll;
+  border: 2px solid black;
+  float: left;
+  width: calc(50% - 1em);
+  margin-left: 1em;
+  margin-right: 1em;
+  background-color: $backgroundBase;
 }
 .inputBox{
-  min-height: 100%;
-  min-width: 100%;
+  width: 100%;
+  height: 100%;
+  font-size: 1rem;
+  background-color: $backgroundBase;
+  color: $lightAccent;
   margin: 0;
   padding: 0;
+  border: none;
+  outline: none;
+  resize: none;
+}
+.editor{
+  width: 100%;
+  height: 100%;
+}
+.markdown{
+  overflow: scroll;
+  padding: 1em;
 }
 
 #preview {
+  color: $lightAccent;
   blockquote {
-    border-left: 3px solid #224B4B;
-    color: #224B4B;
+    border-left: 3px solid $lightAccent;
+    color: $lightAccent;
     padding-left: 5px;
     margin-left: 25px;
   }
 
   code {
-    background: white;
+    background: $lightAccent;
+    color: $darkAccent;
     padding: 1px 4px 2px 4px;
-    font-size: 12px;
+    font-size: .8rem;
     font-weight: bold;
   }
 
   pre {
-    background: white;
+    background: $lightAccent;
+    color: $lightAccent;
     padding: 5px 0 5px 5px;
   }
 
   h1 {
-    border-bottom: 2px solid $darkAccent;
+    color: $lightAccent;
+    border-bottom: 2px solid $lightAccent;
   }
 
   h2 {
-    border-bottom: 1px solid $darkAccent;
+    color: $lightAccent;
+    border-bottom: 1px solid $lightAccent;
   }
 
   table {
+    color: $lightAccent;
     border-collapse: collapse;
   }
 
   td,
   th {
-    border: 2px solid $darkAccent;
+    color: $lightAccent;
+    border: 2px solid $lightAccent;
     padding-left: 5px;
     padding-right: 5px;
+  }
+}
+
+@media (max-width: 1024px){
+  .container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  .in {
+    width: 100%;
+    min-height: calc(50% - 1em);
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .out{
+    width: 100%;
+    max-height: 50vh;
+    margin-left: 0;
+    margin-right: 0;
   }
 }

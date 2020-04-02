@@ -20,13 +20,19 @@ class TextInput extends React.Component{
         return (
             <span className='container'>
                 <label id='textarea' className='wrapper in'>
-                    <textarea id='editor' className='inputBox' onChange={this.handleChange}
-                    value={this.state.inputContent}
-                   type='text'/>
+                    <toolbar className='toolbar'>Editor</toolbar>
+                    <span className="editor">
+                        <textarea id='editor' className='inputBox' onChange={this.handleChange}
+                            value={this.state.inputContent}
+                            type='text'/>
+                   </span>
                 </label>
-                <label id='preview' className='wrapper out'>
-                    <ReactMarkdown source={this.state.inputContent}/>
-                </label>
+                <div id='output' className='wrapper out'>
+                    <toolbar className='toolbar'>Preview</toolbar>
+                    <span className='markdown' id='preview'>
+                        <ReactMarkdown source={this.state.inputContent}/>
+                    </span>
+                </div>
             </span>
         )
     }
