@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# React quote generator
+# React Markdown previewer
 
 ![GitHub Logo](/images/markdown.bmp)
 
