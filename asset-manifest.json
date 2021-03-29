@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/PdoubleU/react_markdown_prev_exercice_04_2020/static/css/main.dc567a19.chunk.css",
-    "main.js": "/PdoubleU/react_markdown_prev_exercice_04_2020/static/js/main.a1b792f6.chunk.js",
-    "main.js.map": "/PdoubleU/react_markdown_prev_exercice_04_2020/static/js/main.a1b792f6.chunk.js.map",
-    "runtime-main.js": "/PdoubleU/react_markdown_prev_exercice_04_2020/static/js/runtime-main.378b770f.js",
-    "runtime-main.js.map": "/PdoubleU/react_markdown_prev_exercice_04_2020/static/js/runtime-main.378b770f.js.map",
-    "static/js/2.61fd5fc8.chunk.js": "/PdoubleU/react_markdown_prev_exercice_04_2020/static/js/2.61fd5fc8.chunk.js",
-    "static/js/2.61fd5fc8.chunk.js.map": "/PdoubleU/react_markdown_prev_exercice_04_2020/static/js/2.61fd5fc8.chunk.js.map",
-    "static/js/3.aef31620.chunk.js": "/PdoubleU/react_markdown_prev_exercice_04_2020/static/js/3.aef31620.chunk.js",
-    "static/js/3.aef31620.chunk.js.map": "/PdoubleU/react_markdown_prev_exercice_04_2020/static/js/3.aef31620.chunk.js.map",
-    "index.html": "/PdoubleU/react_markdown_prev_exercice_04_2020/index.html",
-    "static/css/main.dc567a19.chunk.css.map": "/PdoubleU/react_markdown_prev_exercice_04_2020/static/css/main.dc567a19.chunk.css.map",
-    "static/js/2.61fd5fc8.chunk.js.LICENSE.txt": "/PdoubleU/react_markdown_prev_exercice_04_2020/static/js/2.61fd5fc8.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/PdoubleU/react_markdown_prev_exercice_04_2020/static/media/logo.6ce24c58.svg"
+    "main.css": "/PdoubleU/react_markdown_prev_exercise_04_2020/static/css/main.dc567a19.chunk.css",
+    "main.js": "/PdoubleU/react_markdown_prev_exercise_04_2020/static/js/main.a1b792f6.chunk.js",
+    "main.js.map": "/PdoubleU/react_markdown_prev_exercise_04_2020/static/js/main.a1b792f6.chunk.js.map",
+    "runtime-main.js": "/PdoubleU/react_markdown_prev_exercise_04_2020/static/js/runtime-main.6d819efa.js",
+    "runtime-main.js.map": "/PdoubleU/react_markdown_prev_exercise_04_2020/static/js/runtime-main.6d819efa.js.map",
+    "static/js/2.3e9d6591.chunk.js": "/PdoubleU/react_markdown_prev_exercise_04_2020/static/js/2.3e9d6591.chunk.js",
+    "static/js/2.3e9d6591.chunk.js.map": "/PdoubleU/react_markdown_prev_exercise_04_2020/static/js/2.3e9d6591.chunk.js.map",
+    "static/js/3.aef31620.chunk.js": "/PdoubleU/react_markdown_prev_exercise_04_2020/static/js/3.aef31620.chunk.js",
+    "static/js/3.aef31620.chunk.js.map": "/PdoubleU/react_markdown_prev_exercise_04_2020/static/js/3.aef31620.chunk.js.map",
+    "index.html": "/PdoubleU/react_markdown_prev_exercise_04_2020/index.html",
+    "static/css/main.dc567a19.chunk.css.map": "/PdoubleU/react_markdown_prev_exercise_04_2020/static/css/main.dc567a19.chunk.css.map",
+    "static/js/2.3e9d6591.chunk.js.LICENSE.txt": "/PdoubleU/react_markdown_prev_exercise_04_2020/static/js/2.3e9d6591.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/PdoubleU/react_markdown_prev_exercise_04_2020/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.378b770f.js",
-    "static/js/2.61fd5fc8.chunk.js",
+    "static/js/runtime-main.6d819efa.js",
+    "static/js/2.3e9d6591.chunk.js",
     "static/css/main.dc567a19.chunk.css",
     "static/js/main.a1b792f6.chunk.js"
   ]
