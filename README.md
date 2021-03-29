@@ -2,13 +2,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # React quote generator
 
-![GitHub Logo](/images/starcab.bmp)
+![GitHub Logo](/images/markdown.bmp)
 
 
-[Lets go to live preview](starcab.wroclaw.pl)
+[Lets go to live preview](https://pdoubleu.github.io/react_markdown_prev_exercise_04_2020/)
 
 
-Website presents local transportation company. Provides simple information (adress, services, etc.) and allows to contact with the company owners by form. It is available in two languages: polish and english.
+Standard tool to preview text typed as Markdown markup language. Two columns allow user to work comfortable. Application is responsive so it guarantees well user experience on mobile devices. 
 
 
 ## Used technologies and approaches
