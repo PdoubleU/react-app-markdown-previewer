@@ -2,7 +2,7 @@
   "name": "mdownprv",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://PdoubleU.github.io/react-app-markdown-previewer-/",
+  "homepage": "https://pdoubleu.github.io/react_markdown_prev_exercise_04_2020",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",

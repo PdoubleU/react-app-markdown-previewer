@@ -44,10 +44,7 @@ And here. | Okay. | I think we get it.
 * And last but not least, let's not forget embedded images:
 
 
-**Made by Piotr Witasik as certification project on FreeCodeCamp**
-
-
-![FreeCodeCamp Logo](https:////discourse-user-assets.s3.amazonaws.com/original/2X/c/cf6e8e0a75acb7aa900eb304270a6407ae1d9e2c.jpg)`;
+**Made by Piotr Witasik as certification project on FreeCodeCamp**`;
 
 
 
